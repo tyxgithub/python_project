@@ -1,0 +1,30 @@
+logger:
+  name: "tyx"
+  format: "%(asctime)s::%(levelname)s::%(message)s"
+  file: "test_log.txt"
+  logger_level: "DEBUG"
+  stream_level: "INFO"
+  file_level: "INFO"
+
+
+excel:
+  file: "cases.xlsx"
+
+db:
+  "host": "120.78.128.25"
+  "port": 3306
+  "user": "future"
+  "password": "123456"
+  "charset": "utf8"
+
+host: http://api.lemonban.com/futureloan
+
+login:
+  mobile_phone: 15252993570
+  pwd: tyx123456
+
+admin_user:
+  mobile_phone: 15252993589
+  pwd: leman1234
+
+
